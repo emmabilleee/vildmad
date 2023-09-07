@@ -1,4 +1,4 @@
-fetch("xxx")
+fetch("url")
   .then((res) => res.json())
   .then(showItems);
 
