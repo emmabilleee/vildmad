@@ -103,3 +103,12 @@ body {
   scale: 1.6;
   translate: 50px 180px;
 }
+
+@media (min-width: 800px) {
+  .landskab_boks {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 60px;
+  }
+}
