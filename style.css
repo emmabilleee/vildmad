@@ -223,6 +223,13 @@ header {
   grid-template-columns: 1fr 4fr;
   gap: 10px;
 }
+.grid_card h3 {
+  grid-column: 1 / span 2;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 2rem;
+  margin-bottom: 2px;
+}
 .grid_card p {
   color: rgb(66, 66, 66);
 }
