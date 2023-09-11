@@ -15,12 +15,13 @@ a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/****Mobile****/
+/****Generelt****/
 body {
   background-color: #daf2f7;
   max-width: 800px;
 }
 
+/*****************************Forside*****************************/
 /***Hero***/
 .hero_image {
   display: grid;
@@ -42,7 +43,7 @@ body {
 .hero_land {
   width: 150px;
 }
-/*Knap*/
+/***Knapper***/
 .landskab_boks {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -98,6 +99,8 @@ body {
   font-size: 1.3rem;
   margin: auto;
 }
+
+/***Billeder***/
 .img_skov {
   position: absolute;
   z-index: -1;
@@ -127,7 +130,7 @@ body {
   translate: 50px 80px;
 }
 
-/*IDA*/
+/***Mascot***/
 .figur {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -180,4 +183,24 @@ body {
   100% {
     transform: translateY(0);
   }
+}
+
+/*****************************Side 2*****************************/
+.header_side2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.subheader_side2 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-top: 0px;
+  text-align: center;
+}
+.card {
+  background-color: rgb(178, 213, 178);
+  padding: 15px;
+}
+.img_side2 {
+  width: 100%;
 }
