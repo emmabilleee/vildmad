@@ -16,13 +16,17 @@ a {
 }
 
 /****Mobile****/
+body {
+  background-color: #daf2f7;
+}
 /*Knap*/
-#skov {
+.landskab_boks {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 30px;
+  margin-bottom: 60px;
 }
-.skov_h1 {
+.h1_fp {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 5px;
@@ -72,6 +76,27 @@ a {
   margin: auto;
 }
 .img_skov {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  scale: 1.6;
+  translate: 50px 180px;
+}
+.img_vand {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  scale: 1.6;
+  translate: 50px 180px;
+}
+.img_land {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  scale: 1.6;
+  translate: 50px 180px;
+}
+.img_by {
   position: absolute;
   z-index: -1;
   opacity: 0.5;
