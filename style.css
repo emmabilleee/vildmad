@@ -18,6 +18,29 @@ a {
 /****Mobile****/
 body {
   background-color: #daf2f7;
+  max-width: 800px;
+}
+
+/***Hero***/
+.hero_image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 200px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.hero_skov {
+  width: 150px;
+}
+
+.hero_vand {
+  width: 150px;
+}
+.hero_by {
+  width: 150px;
+}
+.hero_land {
+  width: 150px;
 }
 /*Knap*/
 .landskab_boks {
@@ -104,6 +127,7 @@ body {
   translate: 50px 80px;
 }
 
+/*******WEB**********/
 @media (min-width: 800px) {
   .landskab_boks {
     display: grid;
