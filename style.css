@@ -200,14 +200,19 @@ body {
 .card {
   background-color: rgb(178, 213, 178);
   padding: 15px;
+  border-radius: 5px;
 }
 .img_side2 {
   width: 100%;
+  border-radius: 5px;
 }
 .grid_card {
   display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 10px;
+}
+.grid_card p {
+  color: rgb(66, 66, 66);
 }
 .logo_card {
   width: 30px;
