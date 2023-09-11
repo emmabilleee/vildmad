@@ -1,6 +1,11 @@
 /*******Web**********/
-/*Forside*/
 @media (min-width: 800px) {
+  body {
+    background-color: #daf2f7;
+    max-width: 1200px;
+    margin: auto;
+  }
+  /*Forside*/
   .landskab_boks {
     display: grid;
     grid-template-columns: 2fr 2fr;
