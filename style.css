@@ -17,7 +17,7 @@ a {
 
 /****Mobile****/
 /*Knap*/
-#vand {
+#skov {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 30px;
@@ -65,4 +65,11 @@ a {
   text-decoration: none;
   font-size: 1.5rem;
   margin: auto;
+}
+.img_skov {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  scale: 1.6;
+  translate: 50px 180px;
 }
