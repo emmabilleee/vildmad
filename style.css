@@ -131,6 +131,7 @@ body {
 .figur {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-top: -60%;
 }
 .talebobble {
   grid-column: 2;
@@ -152,10 +153,31 @@ body {
   grid-column: 1;
   margin-top: 20%;
   margin-left: -32%;
+  pointer-events: none;
 }
 
 .tale {
   display: flex;
   justify-content: center;
   margin-top: 70%;
+}
+
+#mascot {
+  animation: mascot_kf 5.5s linear infinite; /* 0.5s for animation + 5s for pause */
+}
+
+@keyframes mascot_kf {
+  0% {
+    transform: translateY(0);
+  }
+
+  80% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

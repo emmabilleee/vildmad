@@ -151,4 +151,11 @@
   .hero_land:hover {
     opacity: 0.5;
   }
+
+  /*figur*/
+  .figur {
+    position: absolute;
+    width: 81%;
+    margin-top: -68%;
+  }
 }
