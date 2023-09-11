@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: 2fr 2fr;
     gap: 70px;
-    margin-bottom: 400px;
+    margin-bottom: 100px;
     margin-top: 50px;
   }
   .h1_fp {
@@ -20,8 +20,8 @@
     padding-top: 100px;
   }
   .section_skov {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .img_skov {
     position: absolute;
@@ -32,8 +32,8 @@
   }
 
   .section_vand {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .img_vand {
     position: absolute;
@@ -43,8 +43,8 @@
     width: 70%;
   }
   .section_land {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .img_land {
     position: absolute;
@@ -54,14 +54,14 @@
     width: 70%;
   }
   .section_by {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .img_by {
     position: absolute;
     z-index: -1;
     opacity: 0.5;
-    translate: 100px -700px;
+    translate: 100px -300px;
     width: 70%;
   }
   /*Knapper*/
