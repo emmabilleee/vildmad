@@ -18,6 +18,29 @@ a {
 /****Mobile****/
 body {
   background-color: #daf2f7;
+  max-width: 800px;
+}
+
+/***Hero***/
+.hero_image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 200px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.hero_skov {
+  width: 150px;
+}
+
+.hero_vand {
+  width: 150px;
+}
+.hero_by {
+  width: 150px;
+}
+.hero_land {
+  width: 150px;
 }
 /*Knap*/
 .landskab_boks {
@@ -103,6 +126,7 @@ body {
   scale: 1.6;
   translate: 50px 80px;
 }
+<<<<<<< HEAD
 
 /*IDA*/
 .figur {
@@ -217,3 +241,5 @@ body {
     translate: 50px 80px;
   }
 }
+=======
+>>>>>>> edb3d0a9a7b310b1cc7dcd8e0022871160259234

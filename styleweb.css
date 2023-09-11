@@ -1,0 +1,154 @@
+/*******Web**********/
+@media (min-width: 800px) {
+  body {
+    background-color: #daf2f7;
+    max-width: 1200px;
+    margin: auto;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  /*Forside*/
+  .landskab_boks {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 70px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  .h1_fp {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    padding-top: 100px;
+  }
+  #section_skov {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .img_skov {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    translate: 100px -230px;
+    width: 70%;
+  }
+
+  #section_vand {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .img_vand {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    translate: 100px -220px;
+    width: 70%;
+  }
+
+  #section_land {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .img_land {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    translate: 100px -220px;
+    width: 70%;
+  }
+  #section_by {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .img_by {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    translate: 150px -300px;
+    width: 65%;
+  }
+  /*Knapper*/
+  .knap_forår {
+    background-color: #baffc9;
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .knap_vinter {
+    background-color: #bae1ff;
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .knap_sommer {
+    background-color: ffffb9;
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .knap_efterår {
+    background-color: #ffdfb9;
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  .hero_image {
+    padding: 200px;
+    margin-bottom: 500px;
+  }
+  .hero_skov {
+    width: 350px;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+  }
+  .hero_skov:hover {
+    opacity: 0.5;
+  }
+
+  .hero_vand {
+    width: 350px;
+    position: absolute;
+    top: 10%;
+    left: 46%;
+  }
+  .hero_vand:hover {
+    opacity: 0.5;
+  }
+  .hero_by {
+    width: 350px;
+    position: absolute;
+    top: 40%;
+    left: 29%;
+  }
+  .hero_by:hover {
+    opacity: 0.5;
+  }
+  .hero_land {
+    width: 350px;
+    position: absolute;
+    top: 39%;
+    left: 63%;
+  }
+  .hero_land:hover {
+    opacity: 0.5;
+  }
+}
