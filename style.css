@@ -218,3 +218,43 @@ body {
   width: 30px;
   margin: 10px;
 }
+
+/***Footer***/
+footer {
+  background-color: rgb(178, 213, 178);
+  color: black;
+  padding: 20px 20px;
+  width: 100%;
+  margin-top: 173px;
+  margin-left: -10px;
+  margin-bottom: 0px;
+}
+footer h3 {
+  color: white;
+  font-weight: bolder;
+  font-size: small;
+}
+footer p {
+  color: #0a4e0c;
+  font-size: small;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.logo-section {
+  display: flex;
+  gap: 10px;
+}
+
+.logo-section img {
+  width: 50px;
+}
