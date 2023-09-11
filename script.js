@@ -11,21 +11,21 @@ function showData(items) {
   console.log(items);
 }
 
-// function showItem(item) {
-//   console.log(item);
-//   //Fang template
-//   const template = document.querySelector("#item_boks").content;
+function showItem(item) {
+  console.log(item);
+  //Fang template
+  const template = document.querySelector("template").content;
 
-//   //Lav en kopi
-//   const copy = template.cloneNode(true);
+  //Lav en kopi
+  const copy = template.cloneNode(true);
 
-//   //Ændre indhold
-//   copy.querySelector("h3").textContent = item.navn;
-//   copy.querySelector(".sankelandskab").textContent = item.navn;
-//   copy.querySelector(".tilberedning").textContent = item.navn;
-//   copy.querySelector(".måneder").textContent = item.navn;
-//   copy.querySelector(".kategori").textContent = item.navn;
+  //Ændre indhold
+  copy.querySelector("h3").textContent = item.navn;
+  copy.querySelector(".sankelandskab").textContent = item.sankelandskaber;
+  copy.querySelector(".tilberedning").textContent = item.tilberedes;
+  copy.querySelector(".måneder").textContent = item.season;
+  copy.querySelector(".kategori").textContent = item.category;
 
-//   //Append
-//   document.querySelector("main").appendChild(copy);
-// }
+  //Append
+  document.querySelector("main").appendChild(copy);
+}
