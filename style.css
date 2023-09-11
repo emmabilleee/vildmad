@@ -104,6 +104,39 @@ body {
   translate: 50px 80px;
 }
 
+/*IDA*/
+.figur {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.talebobble {
+  grid-column: 2;
+  z-index: 3;
+  margin-top: -28%;
+  margin-left: -66%;
+  margin-right: 38%;
+  background-image: url(grafik/bubble.svg);
+  background-size: cover;
+  width: 168%;
+  aspect-ratio: 3000/3000;
+}
+
+#mascot {
+  background-image: url(grafik/Artboard\ 1.svg);
+  background-size: cover;
+  aspect-ratio: 3000/3000;
+  width: 115%;
+  grid-column: 1;
+  margin-top: 20%;
+  margin-left: -32%;
+}
+
+.tale {
+  display: flex;
+  justify-content: center;
+  margin-top: 70%;
+}
+
 @media (min-width: 800px) {
   .landskab_boks {
     display: grid;
