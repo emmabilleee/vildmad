@@ -21,6 +21,18 @@ body {
   max-width: 800px;
 }
 
+/*****Header*****/
+header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 70px;
+}
+
 /*****************************Forside*****************************/
 /***Hero***/
 .hero_image {
@@ -240,7 +252,6 @@ footer p {
 }
 
 .footer-content {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
