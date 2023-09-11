@@ -199,4 +199,41 @@
     width: 50px;
     margin: 10px;
   }
+
+  /***Footer***/
+  footer {
+    background-color: rgb(178, 213, 178);
+    color: black;
+    padding: 30px 120px;
+    width: 100%;
+    margin-top: 300px;
+  }
+  footer h3 {
+    color: white;
+    font-weight: bolder;
+  }
+  footer p {
+    color: #0a4e0c;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+
+  .text-section {
+    flex: 1;
+  }
+
+  .logo-section {
+    display: flex;
+    gap: 10px;
+  }
+
+  .logo-section img {
+    width: 200px;
+  }
 }
