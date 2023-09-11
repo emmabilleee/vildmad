@@ -5,6 +5,9 @@
     max-width: 1200px;
     margin: auto;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   /*Forside*/
   .landskab_boks {
     display: grid;
@@ -19,7 +22,7 @@
     margin-bottom: 20px;
     padding-top: 100px;
   }
-  .section_skov {
+  #section_skov {
     margin-top: 0px;
     margin-bottom: 0px;
   }
@@ -31,7 +34,7 @@
     width: 70%;
   }
 
-  .section_vand {
+  #section_vand {
     margin-top: 0px;
     margin-bottom: 0px;
   }
@@ -42,7 +45,8 @@
     translate: 100px -220px;
     width: 70%;
   }
-  .section_land {
+
+  #section_land {
     margin-top: 0px;
     margin-bottom: 0px;
   }
@@ -53,7 +57,7 @@
     translate: 100px -220px;
     width: 70%;
   }
-  .section_by {
+  #section_by {
     margin-top: 0px;
     margin-bottom: 0px;
   }
@@ -61,8 +65,8 @@
     position: absolute;
     z-index: -1;
     opacity: 0.5;
-    translate: 100px -300px;
-    width: 70%;
+    translate: 150px -300px;
+    width: 65%;
   }
   /*Knapper*/
   .knap_forår {
@@ -116,6 +120,9 @@
     top: 10%;
     left: 13%;
   }
+  .hero_skov:hover {
+    opacity: 0.5;
+  }
 
   .hero_vand {
     width: 350px;
@@ -123,16 +130,25 @@
     top: 10%;
     left: 46%;
   }
+  .hero_vand:hover {
+    opacity: 0.5;
+  }
   .hero_by {
     width: 350px;
     position: absolute;
     top: 40%;
     left: 29%;
   }
+  .hero_by:hover {
+    opacity: 0.5;
+  }
   .hero_land {
     width: 350px;
     position: absolute;
     top: 39%;
     left: 63%;
+  }
+  .hero_land:hover {
+    opacity: 0.5;
   }
 }
