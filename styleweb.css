@@ -77,6 +77,9 @@
     text-decoration: none;
     font-size: 2rem;
   }
+  .knap_forår:hover {
+    background-color: #9ed7ab;
+  }
   .knap_vinter {
     background-color: #bae1ff;
     padding: 40px;
@@ -87,8 +90,11 @@
     text-decoration: none;
     font-size: 2rem;
   }
+  .knap_vinter:hover {
+    background-color: #95cffb;
+  }
   .knap_sommer {
-    background-color: ffffb9;
+    background-color: #ffffb9;
     padding: 40px;
     padding-left: 150px;
     padding-right: 150px;
@@ -96,6 +102,9 @@
     color: black;
     text-decoration: none;
     font-size: 2rem;
+  }
+  .knap_sommer:hover {
+    background-color: #f6f682;
   }
   .knap_efterår {
     background-color: #ffdfb9;
@@ -106,6 +115,9 @@
     color: black;
     text-decoration: none;
     font-size: 2rem;
+  }
+  .knap_efterår:hover {
+    background-color: #fbc787;
   }
 
   /*******Sankelandskaber sections******/
