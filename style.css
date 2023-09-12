@@ -1,18 +1,18 @@
 /*****Fonte*****/
 h1 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Merriweather", serif;
 }
 h2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Merriweather", serif;
 }
 h3 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Merriweather", serif;
 }
 p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Merriweather", serif;
 }
 a {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Merriweather", serif;
 }
 
 /*****Generelt*****/
@@ -212,7 +212,7 @@ header {
 }
 /*****Card*****/
 .card {
-  background-color: rgb(178, 213, 178);
+  background-color: #ffffb9;
   padding: 15px;
   border-radius: 5px;
 }
