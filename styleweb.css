@@ -1,4 +1,5 @@
-/*******Web**********/
+/*****************************Web*****************************/
+/*****Generelt*****/
 @media (min-width: 800px) {
   body {
     background-color: #daf2f7;
@@ -8,7 +9,118 @@
   html {
     scroll-behavior: smooth;
   }
-  /*Forside*/
+
+  /*****Header*****/
+  header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img {
+    max-width: 100px;
+  }
+
+  /*****************************Forside*****************************/
+  /*******Hero******/
+  .hero_image {
+    padding: 200px;
+    margin-bottom: 500px;
+  }
+  .hero_skov {
+    width: 350px;
+    position: absolute;
+    top: 20%;
+    left: 17%;
+  }
+  .hero_skov:hover {
+    opacity: 0.5;
+  }
+
+  .hero_vand {
+    width: 350px;
+    position: absolute;
+    top: 20%;
+    left: 49%;
+  }
+  .hero_vand:hover {
+    opacity: 0.5;
+  }
+  .hero_by {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+  }
+  .hero_by:hover {
+    opacity: 0.5;
+  }
+  .hero_land {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 66%;
+  }
+  .hero_land:hover {
+    opacity: 0.5;
+  }
+
+  /*******Knapper******/
+  .knap_forår {
+    background-color: #baffc9;
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .knap_forår:hover {
+    background-color: #9ed7ab;
+  }
+  .knap_vinter {
+    background-color: #bae1ff;
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .knap_vinter:hover {
+    background-color: #95cffb;
+  }
+  .knap_sommer {
+    background-color: #ffffb9;
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .knap_sommer:hover {
+    background-color: #f6f682;
+  }
+  .knap_efterår {
+    background-color: #ffdfb9;
+    padding: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .knap_efterår:hover {
+    background-color: #fbc787;
+  }
+
+  /*******Sankelandskaber sections******/
   .landskab_boks {
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -68,94 +180,101 @@
     translate: 150px -300px;
     width: 65%;
   }
-  /*Knapper*/
-  .knap_forår {
-    background-color: #baffc9;
-    padding: 40px;
-    padding-left: 150px;
-    padding-right: 150px;
-    border-radius: 5px;
-    color: black;
-    text-decoration: none;
-    font-size: 2rem;
-  }
-  .knap_vinter {
-    background-color: #bae1ff;
-    padding: 40px;
-    padding-left: 150px;
-    padding-right: 150px;
-    border-radius: 5px;
-    color: black;
-    text-decoration: none;
-    font-size: 2rem;
-  }
-  .knap_sommer {
-    background-color: ffffb9;
-    padding: 40px;
-    padding-left: 150px;
-    padding-right: 150px;
-    border-radius: 5px;
-    color: black;
-    text-decoration: none;
-    font-size: 2rem;
-  }
-  .knap_efterår {
-    background-color: #ffdfb9;
-    padding: 40px;
-    padding-left: 150px;
-    padding-right: 150px;
-    border-radius: 5px;
-    color: black;
-    text-decoration: none;
-    font-size: 2rem;
-  }
 
-  .hero_image {
-    padding: 200px;
-    margin-bottom: 500px;
-  }
-  .hero_skov {
-    width: 350px;
-    position: absolute;
-    top: 10%;
-    left: 13%;
-  }
-  .hero_skov:hover {
-    opacity: 0.5;
-  }
-
-  .hero_vand {
-    width: 350px;
-    position: absolute;
-    top: 10%;
-    left: 46%;
-  }
-  .hero_vand:hover {
-    opacity: 0.5;
-  }
-  .hero_by {
-    width: 350px;
-    position: absolute;
-    top: 40%;
-    left: 29%;
-  }
-  .hero_by:hover {
-    opacity: 0.5;
-  }
-  .hero_land {
-    width: 350px;
-    position: absolute;
-    top: 39%;
-    left: 63%;
-  }
-  .hero_land:hover {
-    opacity: 0.5;
-  }
-
-  /*figur*/
+  /*******Mascot******/
   .figur {
     position: absolute;
     width: 81%;
     margin-top: -68%;
+  }
+
+  /*****************************Side 2*****************************/
+  /*******Overskrift******/
+  .header_side2 {
+    font-size: 4rem;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .subheader_side2 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin-top: 0px;
+    text-align: center;
+  }
+  /*******Card******/
+  .card {
+    background-color: #ffffb9;
+    padding: 15px;
+
+    margin-bottom: 50px;
+    border-radius: 5px;
+  }
+
+  .grid_card {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding: 20px;
+    border-bottom: grey solid 1px;
+  }
+  .grid_card h2 {
+    font-size: 2rem;
+    margin-bottom: 2px;
+  }
+  .grid_card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+  }
+  .grid_card p {
+    font-size: 1.2rem;
+  }
+  .logo_card {
+    width: 40px;
+  }
+  .description {
+    line-height: 2;
+    color: grey;
+    padding: 20px;
+    font-size: 1rem;
+  }
+
+  /*****************************Footer*****************************/
+  footer {
+    background-color: rgb(178, 213, 178);
+    color: black;
+    padding: 30px 240px 30px 120px;
+    width: 100%;
+    margin-top: 218px;
+    margin-left: -200px;
+  }
+  footer h3 {
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+  }
+  footer p {
+    color: #0a4e0c;
+    font-size: large;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .text-section {
+    flex: 1;
+  }
+
+  .logo-section {
+    display: flex;
+    gap: 10px;
+  }
+
+  .logo-section img {
+    width: 200px;
   }
 }
