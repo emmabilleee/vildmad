@@ -1,0 +1,319 @@
+/*****Fonte*****/
+h1 {
+  font-family: "Merriweather", serif;
+}
+h2 {
+  font-family: "Merriweather", serif;
+}
+h3 {
+  font-family: "Merriweather", serif;
+}
+p {
+  font-family: "Merriweather", serif;
+}
+a {
+  font-family: "Merriweather", serif;
+}
+
+/*****Generelt*****/
+body {
+  background-color: #daf2f7;
+  max-width: 800px;
+}
+
+/*****Header*****/
+header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 70px;
+}
+
+/*****************************Forside*****************************/
+/*****Hero*****/
+.hero_image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 200px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+.hero_skov {
+  width: 150px;
+}
+
+.hero_vand {
+  width: 150px;
+}
+.hero_by {
+  width: 150px;
+}
+.hero_land {
+  width: 150px;
+}
+/*****Knapper*****/
+.landskab_boks {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.h1_fp {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.knap_forår {
+  background-color: #baffc9;
+  padding: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: auto;
+}
+.knap_sommer {
+  background-color: #ffffb9;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: auto;
+}
+.knap_vinter {
+  background-color: #bae1ff;
+  padding: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: auto;
+}
+.knap_efterår {
+  background-color: #ffdfb9;
+  padding: 20px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin: auto;
+}
+
+/*****Billeder*****/
+.img_skov {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  scale: 1.6;
+  translate: 50px 110px;
+}
+.img_vand {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  scale: 1.6;
+  translate: 50px 80px;
+}
+.img_land {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  scale: 1.6;
+  translate: 50px 100px;
+}
+.img_by {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  scale: 1.6;
+  translate: 50px 80px;
+}
+
+/*****Mascot*****/
+.figur {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: -60%;
+  pointer-events: none;
+}
+.talebobble {
+  grid-column: 2;
+  z-index: 3;
+  margin-top: -28%;
+  margin-left: -66%;
+  margin-right: 38%;
+  background-image: url(grafik/bubble.svg);
+  background-size: cover;
+  width: 168%;
+  aspect-ratio: 3000/3000;
+}
+
+#mascot {
+  background-image: url(grafik/Artboard\ 1.svg);
+  background-size: cover;
+  aspect-ratio: 3000/3000;
+  width: 115%;
+  grid-column: 1;
+  margin-top: 20%;
+  margin-left: -32%;
+  pointer-events: none;
+}
+
+#tale {
+  display: flex;
+  justify-content: center;
+  margin-top: 70%;
+}
+
+.tale_ani {
+  animation-name: tale_ani_kf;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes tale_ani_kf {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  35% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+#mascot {
+  animation: mascot_kf 5.5s linear infinite; /* 0.5s for animation + 5s for pause */
+}
+
+@keyframes mascot_kf {
+  0% {
+    transform: translateY(0);
+  }
+
+  80% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/*****************************Side 2*****************************/
+/*****Overskrift*****/
+.header_side2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.subheader_side2 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  margin-top: 0px;
+  text-align: center;
+}
+/*****Card*****/
+.card {
+  background-color: #ffffb9;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.img_side2 {
+  width: 100%;
+  border-radius: 5px;
+}
+.grid_card {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 10px;
+  padding-bottom: 10px;
+  padding: 20px;
+  border-bottom: grey solid 1px;
+}
+.grid_card h2 {
+  grid-column: 1 / span 2;
+  font-size: 1.5rem;
+  margin-bottom: 2px;
+}
+.grid_card h3 {
+  grid-column: 1 / span 2;
+  font-size: 1rem;
+  margin: 2px;
+  font-weight: 100;
+  padding-bottom: 20px;
+  border-bottom: grey solid 1px;
+}
+
+.grid_card p {
+  color: rgb(66, 66, 66);
+  font-size: 1rem;
+}
+.logo_card {
+  width: 25px;
+  margin: 0px;
+}
+.description {
+  line-height: 2;
+  color: grey;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+/*****************************Footer*****************************/
+footer {
+  background-color: rgb(178, 213, 178);
+  color: black;
+  padding: 20px 20px;
+  width: 100%;
+  margin-top: 173px;
+  margin-left: -10px;
+  margin-bottom: 0px;
+}
+footer h3 {
+  color: white;
+  font-weight: bolder;
+  font-size: small;
+}
+footer p {
+  color: #0a4e0c;
+  font-size: small;
+}
+
+.footer-content {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.text-section {
+  flex: 1;
+}
+
+.logo-section {
+  display: flex;
+  gap: 10px;
+}
+
+.logo-section img {
+  width: 50px;
+}
