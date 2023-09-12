@@ -203,32 +203,40 @@
   }
   /*******Card******/
   .card {
-    background-color: rgb(178, 213, 178);
+    background-color: #ffffb9;
     padding: 15px;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
+
     margin-bottom: 50px;
     border-radius: 5px;
   }
 
   .grid_card {
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    margin-left: 50px;
+    grid-template-columns: 1fr 9fr;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding: 20px;
+    border-bottom: grey solid 1px;
+  }
+  .grid_card h2 {
+    font-size: 2rem;
+    margin-bottom: 2px;
   }
   .grid_card h3 {
-    grid-column: 1 / span 2;
-    margin-top: 20px;
-    padding: 10px;
-    font-size: 3rem;
+    font-size: 1.2rem;
     margin-bottom: 2px;
   }
   .grid_card p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .logo_card {
-    width: 50px;
-    margin: 10px;
+    width: 40px;
+  }
+  .description {
+    line-height: 2;
+    color: grey;
+    padding: 20px;
+    font-size: 1rem;
   }
 
   /*****************************Footer*****************************/
