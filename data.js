@@ -7,32 +7,29 @@ fetch("https://aghzgepwumrefviuxsmp.supabase.co/rest/v1/vildmad", {
   .then((res) => res.json())
   .then(showDatas);
 
-  function showDatas(items) {
-    items.forEach(showData);
+function showDatas(items) {
+  items.forEach(showData);
+}
+function showData(item) {
+  console.log(item);
+  //fang template
+  const template = document.querySelector("#item_boks").content;
+  //lav kopi
+  const copy = template.cloneNode(true);
+
+  copy.querySelector("h3").textContent = item.navn;
+  copy.querySelector(".sankelandskab").textContent = item.sankelandskaber;
+  /*copy.querySelector(".tilberedning").textContent = item.tilberedes;*/
+  copy.querySelector(".maaneder").textContent = item.month;
+  copy.querySelector(".kategori").textContent = item.navn;
+  copy.querySelector(".beskrivelse").textContent = item.beskrivelse;
+  copy.querySelector("img").src = item.img;
+
+  if (item.tilberedes === true) {
+    copy.querySelector(".tilberedning").textContent = `Tilberedes før spisning`;
+  } else {
+    copy.querySelector(".tilberedning").textContent = `Behøver ikke tilberedning før spisning`;
   }
-  
-  function showData(item) {
-    console.log(item);
-    //fang template
-    const template = document.querySelector("#item_boks").content;
-    //lav kopi
-    const copy = template.cloneNode(true);
 
-
-    copy.querySelector("h3").textContent = item.navn;
-    copy.querySelector(".sankelandskab").textContent = item.sankelandskaber;
-    /*copy.querySelector(".tilberedning").textContent = item.tilberedes;*/
-    copy.querySelector(".maaneder").textContent = item.month;
-    copy.querySelector(".kategori").textContent = item.navn;
-    copy.querySelector(".beskrivelse").textContent = item.beskrivelse;
-    copy.querySelector("img").src = item.img;
-
-    if(item.tilberedes === true){
-      copy.querySelector(".tilberedning").textContent = `Tilberedes før spisning`;
-    } else {
-      copy.querySelector(".tilberedning").textContent = `Behøver ikke tilberedning før spisning`;
-    }
-
-    document.querySelector("main").appendChild(copy);
-  }
-  
+  document.querySelector("main").appendChild(copy);
+}
