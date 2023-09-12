@@ -22,8 +22,8 @@ function showData(item) {
   /*copy.querySelector(".tilberedning").textContent = item.tilberedes;*/
   copy.querySelector(".maaneder").textContent = item.month;
   copy.querySelector(".kategori").textContent = item.navn;
-  copy.querySelector(".beskrivelse").textContent = item.beskrivelse;
-  copy.querySelector("img").src = item.img;
+  copy.querySelector(".description").textContent = item.beskrivelse;
+  copy.querySelector(".img").src = item.img;
 
   if (item.tilberedes === true) {
     copy.querySelector(".tilberedning").textContent = `Tilberedes før spisning`;
