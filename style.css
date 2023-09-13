@@ -175,12 +175,15 @@ header {
 #tale {
   display: flex;
   justify-content: center;
-  margin-top: 70%;
+  margin-top: 73%;
+  font-family: "Merriweather", serif;
+  font-size: 0.65rem;
+  margin-right: -16%;
 }
 
 .tale_ani {
   animation-name: tale_ani_kf;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-fill-mode: backwards;
   animation-iteration-count: 1;
@@ -190,8 +193,11 @@ header {
   0% {
     clip-path: inset(0 100% 0 0);
   }
-  35% {
+  10% {
     clip-path: inset(0 100% 0 0);
+  }
+  50% {
+    clip-path: inset(0 0 0 0);
   }
   100% {
     clip-path: inset(0 0 0 0);
