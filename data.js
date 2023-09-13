@@ -31,7 +31,6 @@ function showData(item) {
 
   copy.querySelector("h2").textContent = item.navn;
   copy.querySelector(".sankelandskab").textContent = item.sankelandskaber;
-  /*copy.querySelector(".tilberedning").textContent = item.tilberedes;*/
   copy.querySelector(".maaneder").textContent = item.month;
   copy.querySelector(".kategori").textContent = item.navn;
   copy.querySelector(".description").textContent = item.beskrivelse;
