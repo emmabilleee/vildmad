@@ -67,7 +67,7 @@ header {
   font-size: 2rem;
   margin-bottom: 30px;
 }
-.knap_forår {
+.knap_foraar {
   background-color: #baffc9;
   padding: 20px;
   padding-left: 90px;
@@ -100,7 +100,7 @@ header {
   font-size: 1.3rem;
   margin: auto;
 }
-.knap_efterår {
+.knap_efteraar {
   background-color: #ffdfb9;
   padding: 20px;
   padding-left: 90px;
@@ -240,11 +240,10 @@ header {
 /*****Card*****/
 .card {
   background-color: #ffffb9;
-  padding: 15px;
   border-radius: 5px;
 }
 
-.img_side2 {
+.img {
   width: 100%;
   border-radius: 5px;
 }

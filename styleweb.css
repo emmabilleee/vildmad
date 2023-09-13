@@ -67,7 +67,7 @@
   }
 
   /*******Knapper******/
-  .knap_forår {
+  .knap_foraar {
     background-color: #baffc9;
     padding: 40px;
     padding-left: 150px;
@@ -77,7 +77,7 @@
     text-decoration: none;
     font-size: 2rem;
   }
-  .knap_forår:hover {
+  .knap_foraar:hover {
     background-color: #9ed7ab;
   }
   .knap_vinter {
@@ -106,7 +106,7 @@
   .knap_sommer:hover {
     background-color: #f6f682;
   }
-  .knap_efterår {
+  .knap_efteraar {
     background-color: #ffdfb9;
     padding: 40px;
     padding-left: 150px;
@@ -116,7 +116,7 @@
     text-decoration: none;
     font-size: 2rem;
   }
-  .knap_efterår:hover {
+  .knap_efteraar:hover {
     background-color: #fbc787;
   }
 
@@ -208,10 +208,10 @@
   /*******Card******/
   .card {
     background-color: #ffffb9;
-    padding: 15px;
-
-    margin-bottom: 50px;
+    width: 50%;
     border-radius: 5px;
+    margin: auto;
+    margin-bottom: 100px;
   }
 
   .grid_card {
@@ -249,7 +249,7 @@
     color: black;
     padding: 30px 240px 30px 120px;
     width: 100%;
-    margin-top: 218px;
+    margin-top: 200px;
     margin-left: -200px;
   }
   footer h3 {
