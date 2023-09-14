@@ -11,12 +11,14 @@
 
   /*****Header*****/
   header {
-    justify-content: space-between;
+    justify-content: end;
   }
 
   .logo img {
-    max-width: 300px;
+    max-width: 150px;
     aspect-ratio: 3000/3000;
+    margin-top: 10px;
+    margin-right: -80px;
   }
 
   /*****************************Forside*****************************/
