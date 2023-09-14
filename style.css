@@ -23,15 +23,15 @@ body {
 
 /*****Header*****/
 header {
-  padding: 10px 20px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin-left: 125px;
 }
 
 .logo img {
   max-width: 90px;
   aspect-ratio: 3000/3000;
+  position: absolute;
 }
 
 /*****************************Forside*****************************/
@@ -149,14 +149,14 @@ header {
 .figur {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: -60%;
+  margin-top: -97%;
   pointer-events: none;
 }
 .talebobble {
   grid-column: 2;
   z-index: 3;
-  margin-top: -28%;
-  margin-left: -66%;
+  margin-top: -30%;
+  margin-left: -77%;
   margin-right: 38%;
   background-image: url(grafik/bubble.svg);
   background-size: cover;
