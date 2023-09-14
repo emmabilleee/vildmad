@@ -30,7 +30,7 @@ header {
 }
 
 .logo img {
-  max-width: 90px;
+  max-width: 100px;
   aspect-ratio: 3000/3000;
   position: absolute;
 }
