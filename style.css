@@ -216,7 +216,6 @@ header {
   0% {
     transform: translateY(0);
   }
-
   80% {
     transform: translateY(0);
   }
@@ -327,4 +326,5 @@ footer p {
 
 .logo-section img {
   width: 50px;
+  height: auto;
 }
