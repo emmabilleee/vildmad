@@ -56,17 +56,7 @@ header {
   width: 150px;
 }
 /*****Knapper*****/
-.landskab_boks {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 30px;
-  margin-bottom: 100px;
-}
-.h1_fp {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 30px;
-}
+
 .knap_foraar {
   background-color: #baffc9;
   padding: 20px;
@@ -112,7 +102,19 @@ header {
   margin: auto;
 }
 
-/*****Billeder*****/
+/*******Sankelandskaber sections******/
+.landskab_boks {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.h1_fp {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
 .img_skov {
   position: absolute;
   z-index: -1;
