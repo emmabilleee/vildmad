@@ -7,6 +7,7 @@ h2 {
 }
 h3 {
   font-family: "Merriweather", serif;
+  text-transform: capitalize;
 }
 p {
   font-family: "Merriweather", serif;
