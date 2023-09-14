@@ -230,12 +230,14 @@ header {
   font-size: 2rem;
   margin-bottom: 5px;
   text-align: center;
+  text-transform: uppercase;
 }
 .subheader_side2 {
   font-size: 1.2rem;
   font-weight: 200;
   margin-top: 0px;
   text-align: center;
+  text-transform: capitalize;
 }
 /*****Card*****/
 .card {
