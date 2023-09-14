@@ -30,6 +30,7 @@ function showData(item) {
   const copy = template.cloneNode(true);
 
   copy.querySelector("h2").textContent = item.navn;
+  copy.querySelector("h3").textContent = item.season;
   copy.querySelector(".sankelandskab").textContent = item.sankelandskaber;
   copy.querySelector(".maaneder").textContent = item.month;
   copy.querySelector(".kategori").textContent = item.navn;
